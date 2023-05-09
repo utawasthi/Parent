@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <title>My Youtube Clone</title>
+  <head>
+    
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+
+  </head>
+
+  <body>
+  
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+
+        <div class="middle-section"><input class="search-bar" type="textbox" 
+            placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon"
+                src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your Voice</div>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip"> Create</div>
+            </div>
+            <div class="youtube-apps-container">
+                <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                <div class="tooltip">Search Apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <div class="notifications-count">5</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <div class="my-channel-container">
+             <img class="current-user-picture" src="channels-pictures/my-channel.jpeg">
+             <div class="tooltip"> My Channel</div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+          <img src="icons/home.svg">
+          Home
+      </div>
+      <div class="sidebar-link">
+          <img src="icons/explore.svg">
+          Explore
+      </div>
+      <div class="sidebar-link">
+          <img src="icons/subscriptions.svg">
+          Subscribe
+      </div>
+      <div class="sidebar-link">
+          <img src="icons/originals.svg">
+          Originals
+      </div>
+      <div class="sidebar-link">
+          <img src="icons/youtube-music.svg">
+             YouTube Music 
+      </div>
+      <div class="sidebar-link">
+          <img src="icons/library.svg">
+          Library
+      </div>
+  </nav>
+
+
+
+    
+    <main>
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+           <img class="thumbnails" 
+           src="thumbnails/thumbnail-1.webp">
+           <div class="video-time">11:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" 
+                src="channels-pictures/channel-1.jpeg">
+            </div>
+            <div class="video-info">
+             <p class="video-title">
+               The Best of Chandler Bing & Joey Tribbiani|Friends|HBO Max
+             </p>
+             <p class="video-author">HBO Max &#10003;</p>
+             <p class="video-stats">2.4M views · 1 year ago</p>
+            </div>
+          </div>
+       </div>
+    
+       <div class="video-preview">
+        <div class="thumbnail-row">
+         <img class="thumbnails" 
+         src="thumbnails/thumbnail-2.webp">
+         <div class="video-time">17:27</div>
+         </div>
+         <div class="video-info-grid">
+             <div class="channel-picture">
+                 <img class="profile-picture" 
+                 src="channels-pictures/channel-2.jpeg">
+             </div>
+             <div class="video-info">
+               <p class="video-title">
+                  5 habits that make you feel incredible
+               </p>
+               <p class="video-author">Better Ideas &#10003; </p>
+               <p class="video-stats">1.3M views · 8 months ago</p>
+             </div>
+         </div>
+     </div>
+    
+     <div class="video-preview">
+      <div class="thumbnail-row">
+       <img class="thumbnails" 
+       src="thumbnails/thumbnail-3.webp">
+       <div class="video-time">3:47</div>
+       </div>
+       <div class="video-info-grid">
+           <div class="channel-picture">
+               <img class="profile-picture" 
+               src="channels-pictures/channel-3.jpeg">
+           </div>
+           <div class="video-info">
+             <p class="video-title">
+                Bruno Mars - 24K Magic (Official Music Video)
+             </p>
+             <p class="video-author">Bruno Mars &#9834;</p>
+             <p class="video-stats"> 1.5B views · 6 years ago</p>
+           </div>
+       </div>
+    </div>
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <img class="thumbnails" 
+       src="thumbnails/thumbnail-4.webp">
+       <div class="video-time">3:55</div>
+       </div>
+       <div class="video-info-grid">
+           <div class="channel-picture">
+               <img class="profile-picture" 
+               src="channels-pictures/channel-4.jpeg">
+           </div>
+           <div class="video-info">
+             <p class="video-title">
+                Taylor Swift - Delicate
+             </p>
+             <p class="video-author">Taylor Swift &#9834;</p>
+             <p class="video-stats">488M views · 4years ago</p>
+           </div>
+       </div>
+    </div>
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <img class="thumbnails" 
+       src="thumbnails/thumbnail-5.webp">
+       <div class="video-time">3:44</div>
+       </div>
+       <div class="video-info-grid">
+           <div class="channel-picture">
+               <img class="profile-picture" 
+               src="channels-pictures/channel-4.jpeg">
+           </div>
+           <div class="video-info">
+             <p class="video-title">
+                Taylor Swift - Paper Rings (Official Audio)
+             </p>
+             <p class="video-author">Taylor Swift</p>
+             <p class="video-stats">29M views · 3 years ago</p>
+           </div>
+       </div>
+    </div>
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <img class="thumbnails" 
+       src="thumbnails/thumbnail-6.webp">
+       <div class="video-time">4:40</div>
+       </div>
+       <div class="video-info-grid">
+           <div class="channel-picture">
+               <img class="profile-picture" 
+               src="channels-pictures/channel-5.jpeg">
+           </div>
+           <div class="video-info">
+             <p class="video-title">
+                Ed Sheeran - Perfect (Official Music Video)
+             </p>
+             <p class="video-author">Ed Sheeran</p>
+             <p class="video-stats">3.2B views · 5 years ago</p>
+           </div>
+       </div>
+    </div>
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <img class="thumbnails" 
+       src="thumbnails/thumbnail-7.webp">
+       <div class="video-time">2:44</div>
+       </div>
+       <div class="video-info-grid">
+           <div class="channel-picture">
+               <img class="profile-picture" 
+               src="channels-pictures/channel-6.jpeg">
+           </div>
+           <div class="video-info">
+             <p class="video-title">
+              Iron Man 3 -- Official Trailer UK Marvel | HD
+             </p>
+             <p class="video-author">Marvel UK</p>
+             <p class="video-stats">30M views · 9 years ago</p>
+           </div>
+       </div>
+    </div>
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <img class="thumbnails" 
+       src="thumbnails/thumbnail-8.webp">
+       <div class="video-time">7:57</div>
+       </div>
+       <div class="video-info-grid">
+           <div class="channel-picture">
+               <img class="profile-picture" 
+               src="channels-pictures/channel-7.jpeg">
+           </div>
+           <div class="video-info">
+             <p class="video-title">
+              (Marvel) Steve Rogers | A Good Man
+             </p>
+             <p class="video-author">Jesse JR &#10003;</p>
+             <p class="video-stats">5.2M views · 3 years ago</p>
+           </div>
+       </div>
+    </div>
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <img class="thumbnails" 
+       src="thumbnails/thumbnail-9.webp">
+       <div class="video-time">4:27</div>
+       </div>
+       <div class="video-info-grid">
+           <div class="channel-picture">
+               <img class="profile-picture" 
+               src="channels-pictures/channel-8.jpeg">
+           </div>
+           <div class="video-info">
+             <p class="video-title">
+              Dear Zindagi | Life Lessons By Dr. Jug | Mash Up | Shah Rukh Khan, Alia Bhatt
+             </p>
+             <p class="video-author">Red Chillies Entertainment &#10003;</p>
+             <p class="video-stats">1.5M views · 1 year ago </p>
+           </div>
+       </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <img class="thumbnails" 
+       src="thumbnails/thumbnail-10.webp">
+       <div class="video-time">3:20</div>
+       </div>
+       <div class="video-info-grid">
+           <div class="channel-picture">
+               <img class="profile-picture" 
+               src="channels-pictures/channel-9.jpeg">
+           </div>
+           <div class="video-info">
+             <p class="video-title">
+              George Michael - Careless Whisper (Official Video)
+             </p>
+             <p class="video-author">georgemichael &#9834; </p>
+             <p class="video-stats">946M views · 13 year ago</p>
+           </div>
+       </div>
+   </div>
+
+   <div class="video-preview">
+    <div class="thumbnail-row">
+     <img class="thumbnails" 
+     src="thumbnails/thumbnail-11.webp">
+     <div class="video-time">3:11</div>
+     </div>
+     <div class="video-info-grid">
+         <div class="channel-picture">
+             <img class="profile-picture" 
+             src="channels-pictures/channel-10.jpeg">
+         </div>
+         <div class="video-info">
+           <p class="video-title">
+            Raw vision: Behind the scenes of India's win over Pakistan | ICC T20 World Cup 2022
+           </p>
+           <p class="video-author">ICC &#10003; </p>
+           <p class="video-stats">11M views · 3 weeks ago</p>
+         </div>
+     </div>
+ </div>
+
+ <div class="video-preview">
+  <div class="thumbnail-row">
+   <img class="thumbnails" 
+   src="thumbnails/thumbnail-12.webp">
+   <div class="video-time">3:11</div>
+   </div>
+   <div class="video-info-grid">
+       <div class="channel-picture">
+           <img class="profile-picture" 
+           src="channels-pictures/channel-11.jpeg">
+       </div>
+       <div class="video-info">
+         <p class="video-title">
+          Reality of Morbi Bridge Incident | Who's Responsible? | Dhruv Rathee
+         </p>
+         <p class="video-author">Dhruv Rathee &#10003; </p>
+         <p class="video-stats">2.8M views · 3 days ago</p>
+       </div>
+   </div>
+</div>
+    
+  
+      </section>
+  
+
+    </main>
+    
+    
+  
+  </body>
+</html>
